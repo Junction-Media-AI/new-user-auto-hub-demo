@@ -1,2 +1,2 @@
 # new-user-auto-hub-demo
-demo
+aesthetic demo ONLY!! 
