@@ -8,6 +8,8 @@ const Navigation = () => {
 
 	return (
 		<nav className="nav">
+			<img src="client/assets/Logo_White.png" className="company-logo" />
+
 			<button onClick={() => goTo('/dashboard')} className="nav-button">
 				Dashboard
 			</button>

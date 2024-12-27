@@ -1,0 +1,8 @@
+.nav {
+	background-color: blue;
+	padding: 10px;
+}
+
+.nav img {
+	max-width: 200px;
+}
