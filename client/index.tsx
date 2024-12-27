@@ -26,10 +26,7 @@ export const routes = createRoutesFromElements(
 			path="automation-hub"
 			element={<LoadComponent component={AutomationHub} />}
 		/>
-		<Route
-			path="account-page"
-			element={<LoadComponent component={AccountPage} />}
-		/>
+		<Route path="account" element={<LoadComponent component={AccountPage} />} />
 	</Route>
 );
 
