@@ -18,6 +18,7 @@ const Navigation = ({ userName }: NavigationProps) => {
         src="client/assets/Logo_White.png"
         alt="Company Logo"
         className="company-logo"
+        onClick={() => goTo('/dashboard')}
       />
 
       {/* Hamburger Button */}
