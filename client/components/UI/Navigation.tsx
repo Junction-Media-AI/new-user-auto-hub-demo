@@ -48,7 +48,7 @@ const Navigation = ({ userName }: NavigationProps) => {
       <div className="nav-buttons">
         {/* Account Section and Notification Icon */}
         <div className="user-notification-section">
-          <div className="user-section">
+          <div className="user-section" onClick={() => goTo('/account')}>
             <div className="user-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,9 +95,6 @@ const Navigation = ({ userName }: NavigationProps) => {
         </button>
         <button onClick={() => goTo('/automation-hub')} className="nav-button">
           Automation Hub
-        </button>
-        <button onClick={() => goTo('/account')} className="nav-button">
-          Account
         </button>
       </div>
     </nav>
