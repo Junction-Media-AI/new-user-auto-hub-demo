@@ -1,8 +1,60 @@
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
   background-color: blue;
-  padding: 20px;
+  color: white;
 }
 
-.nav img {
-  max-width: 200px;
+.company-logo {
+  width: 8rem; 
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-button:hover {
+  color: #d1d1d1; 
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.user-name {
+  font-size: 1rem;
+}
+
+.nav-icon {
+  cursor: pointer;
+}
+
+.nav-icon svg {
+  width: 24px;
+  height: 24px;
+  transition: fill 0.3s;
+}
+
+.nav-icon:hover svg {
+  fill: #d1d1d1;
 }
